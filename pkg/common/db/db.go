@@ -3,7 +3,7 @@ package db
 import (
 	"log"
 
-	"github.com/benavio/pkg/common/models"
+	"github.com/benavio/Gorm_crud/pkg/common/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
