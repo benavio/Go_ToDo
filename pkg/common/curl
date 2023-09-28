@@ -1,0 +1,12 @@
+
+### Addbook
+curl http://localhost:3000/books \
+    --include\
+    --header "Content-Type: application/json" \
+    --request "POST" \
+    --data '{"title": "Archer", "author": ["Joan Laber", "description" : "Интересная"]}'
+### Get all books
+
+curl -X "GET" http://localhost:3000/books
+###
+curl -X POST  http://127.0.0.1:3000/albums/add-user/1004
